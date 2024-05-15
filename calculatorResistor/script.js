@@ -16,33 +16,35 @@ let result;
 let color;
 
 function calcularResistencia() {
-    let resistenciaTotal = (unidad+decena)*multiplicador
+    
+    let resistenciaTotal = (unidad+decena)*multiplicador;
 
     if (resistenciaTotal <1000) {
-        result = (resistenciaTotal + "Ω" + " ±" + tolerancia + "%")
+        result = (resistenciaTotal + "Ω" + " ±" + tolerancia + "%");
     } else if (resistenciaTotal >= 1000 && resistenciaTotal < 1000000) {
-        resistenciaTotal = resistenciaTotal /1000
-        result=(resistenciaTotal + "kΩ" + " ±" + tolerancia + "%")
+        resistenciaTotal = resistenciaTotal /1000;
+        result=(resistenciaTotal + "kΩ" + " ±" + tolerancia + "%");
     } else if (resistenciaTotal >= 1000000 && resistenciaTotal < 1000000000) {
-        resistenciaTotal = resistenciaTotal /1000000
-        result=(resistenciaTotal + "MΩ" + " ±" + tolerancia + "%")
+        resistenciaTotal = resistenciaTotal /1000000;
+        result=(resistenciaTotal + "MΩ" + " ±" + tolerancia + "%");
     } else if (resistenciaTotal >= 1000000000) {
-        resistenciaTotal = resistenciaTotal /1000000000
-        result=(resistenciaTotal + "GΩ" + " ±" + tolerancia + "%")
+        resistenciaTotal = resistenciaTotal /1000000000;
+        result=(resistenciaTotal + "GΩ" + " ±" + tolerancia + "%");
     } else {
-        result = "Faltan datos"
+        result = "Faltan datos";
     }
-    return (result)
+    return (result);
 }
 
 function mostrarValorResistencia() {
+    
     if (result !== undefined) {
         alert ("EL valor de la resistencia es de: " + result)
     } else {
-        alert ("Faltan datos")
+        alert ("Faltan datos");
     }
-    
 }
+
 
 primeraBanda.forEach(element => {
     element.addEventListener("click", (element => {
@@ -53,9 +55,8 @@ primeraBanda.forEach(element => {
         primeraBandaSeleccionada.style.border="1px solid #999";
         unidad = parseFloat(primeraBandaSeleccionada.dataset.valor);
         color = window.getComputedStyle(primeraBandaSeleccionada).getPropertyValue('background-color');
-        bandaResistencia1.style.backgroundColor = color
-        calcularResistencia()
-
+        bandaResistencia1.style.backgroundColor = color;
+        calcularResistencia();
     }));
 });
 
@@ -68,8 +69,8 @@ segundaBanda.forEach(element => {
         segundaBandaSeleccionada.style.border="1px solid #999";
         decena = parseFloat(segundaBandaSeleccionada.dataset.valor);
         color = window.getComputedStyle(segundaBandaSeleccionada).getPropertyValue('background-color');
-        bandaResistencia2.style.backgroundColor = color
-        calcularResistencia()
+        bandaResistencia2.style.backgroundColor = color;
+        calcularResistencia();
     }));
 });
 
@@ -82,8 +83,8 @@ terceraBanda.forEach(element => {
         terceraBandaSeleccionada.style.border="1px solid #999";
         multiplicador =parseFloat(terceraBandaSeleccionada.dataset.valor);
         color = window.getComputedStyle(terceraBandaSeleccionada).getPropertyValue('background-color');
-        bandaResistencia3.style.backgroundColor = color
-        calcularResistencia()
+        bandaResistencia3.style.backgroundColor = color;
+        calcularResistencia();
     }));
 });
 
@@ -96,7 +97,7 @@ cuartaBanda.forEach(element => {
         cuartaBandaSeleccionada.style.border="1px solid #999";
         tolerancia = cuartaBandaSeleccionada.dataset.valor;
         color = window.getComputedStyle(cuartaBandaSeleccionada).getPropertyValue('background-color');
-        bandaResistencia4.style.backgroundColor = color
-        calcularResistencia()
+        bandaResistencia4.style.backgroundColor = color;
+        calcularResistencia();
     }));
 });
