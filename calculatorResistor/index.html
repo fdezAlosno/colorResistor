@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="es-ES">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio 006</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="resistor-style.css">
+    </head>
+    <body>
+
+            <div class="main-content">
+                <div class="content-resistor">
+                    <img src="img/resistor-color-diagram-bg.png" alt="">
+                    <div class="banda1-1" id="banda-1-1"></div>
+                    <div class="banda2-1" id="banda-2-1"></div>
+                    <div class="banda3-1" id="banda-3-1"></div>
+                    <div class="banda4-1" id="banda-4-1"></div>
+
+                </div>
+
+                <div class="content-resistor-values">
+
+                    <div class="banda1">
+                        <p class="primera-banda" data-valor="0" id="primera-banda-0">0 Negro</p>
+                        <p class="primera-banda" data-valor="1" id="primera-banda-1">1 Marron</p>
+                        <p class="primera-banda" data-valor="2" id="primera-banda-2">2 Rojo</p>
+                        <p class="primera-banda" data-valor="3" id="primera-banda-3">3 Naranja</p>
+                        <p class="primera-banda" data-valor="4" id="primera-banda-4">4 Amarillo</p>
+                        <p class="primera-banda" data-valor="5" id="primera-banda-5">5 Verde</p>
+                        <p class="primera-banda" data-valor="6" id="primera-banda-6">6 Azul</p>
+                        <p class="primera-banda" data-valor="7" id="primera-banda-7">7 Violeta</p>
+                        <p class="primera-banda" data-valor="8" id="primera-banda-8">8 Gris</p>
+                        <p class="primera-banda" data-valor="9" id="primera-banda-9">9 Blanco</p>
+                    </div>
+
+                    <div class="banda2">
+                        <p class="segunda-banda" data-valor="0" id="segunda-banda-0">0 Negro</p>
+                        <p class="segunda-banda" data-valor="10" id="segunda-banda-1">10 Marron</p>
+                        <p class="segunda-banda" data-valor="20" id="segunda-banda-2">20 Rojo</p>
+                        <p class="segunda-banda" data-valor="30" id="segunda-banda-3">30 Naranja</p>
+                        <p class="segunda-banda" data-valor="40" id="segunda-banda-4">40 Amarillo</p>
+                        <p class="segunda-banda" data-valor="50" id="segunda-banda-5">50 Verde</p>
+                        <p class="segunda-banda" data-valor="60" id="segunda-banda-6">60 Azul</p>
+                        <p class="segunda-banda" data-valor="70" id="segunda-banda-7">70 Violeta</p>
+                        <p class="segunda-banda" data-valor="80" id="segunda-banda-8">80 Gris</p>
+                        <p class="segunda-banda" data-valor="90" id="segunda-banda-9">90 Blanco</p>
+                    </div>
+                
+                    <div class="banda3">
+                        <p class="tercera-banda" data-valor="1" id="tercera-banda-0">x1 Negro</p>
+                        <p class="tercera-banda" data-valor="10" id="tercera-banda-1">x10 Marron</p>
+                        <p class="tercera-banda" data-valor="100" id="tercera-banda-2">x100 Rojo</p>
+                        <p class="tercera-banda" data-valor="1000" id="tercera-banda-3">x1k Naranja</p>
+                        <p class="tercera-banda" data-valor="10000" id="tercera-banda-4">x10k Amarillo</p>
+                        <p class="tercera-banda" data-valor="100000" id="tercera-banda-5">x100k Verde</p>
+                        <p class="tercera-banda" data-valor="1000000" id="tercera-banda-6">x1M Azul</p>
+                        <p class="tercera-banda" data-valor="10000000" id="tercera-banda-7">x10M Violeta</p>
+                        <p class="tercera-banda" data-valor="100000000" id="tercera-banda-8">x100M Gris</p>
+                        <p class="tercera-banda" data-valor="1000000000" id="tercera-banda-9">x1G Blanco</p>
+                        <p class="tercera-banda" data-valor="0.1" id="tercera-banda-10">x0.1 Ω - Oro</p>
+                        <p class="tercera-banda" data-valor="0.01" id="tercera-banda-11">x0.01 Ω - Plata</p>
+                    </div>
+
+                    <div class="banda4">
+                        <p class="cuarta-banda" data-valor="1" id="cuarta-banda-0">Marron</p>
+                        <p class="cuarta-banda" data-valor="2" id="cuarta-banda-1">Rojo</p>
+                        <p class="cuarta-banda" data-valor="0.5" id="cuarta-banda-2">Verde</p>
+                        <p class="cuarta-banda" data-valor="0.25" id="cuarta-banda-3">Azul</p>
+                        <p class="cuarta-banda" data-valor="0.1" id="cuarta-banda-4">Violeta</p>
+                        <p class="cuarta-banda" data-valor="0.05" id="cuarta-banda-5">Gris</p>
+                        <p class="cuarta-banda" data-valor="5" id="cuarta-banda-6">Oro</p>
+                        <p class="cuarta-banda" data-valor="10" id="cuarta-banda-7">Plata</p>
+                    </div>
+
+                </div>
+                    
+                <input class="btn-calcular" id="btn-calcular" type="button" value="Calcular" onclick="mostrarValorResistencia()">
+            </div>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>

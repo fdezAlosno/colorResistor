@@ -1,0 +1,195 @@
+.primera-banda,
+.segunda-banda,
+.tercera-banda,
+.cuarta-banda {
+    width: 100px;
+    height: 15px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #333;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.btn-calcular {
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #fafafa;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.btn-calcular:hover {
+    color: #fafafa;
+    background-color: #333;
+}
+
+#primera-banda-0,
+#segunda-banda-0,
+#tercera-banda-0 {
+    background-color: black;
+    color: #fafafa;
+}
+
+#primera-banda-1,
+#segunda-banda-1,
+#tercera-banda-1,
+#cuarta-banda-0 {
+    background-color: brown;
+    color: #fafafa;
+}
+
+#primera-banda-2,
+#segunda-banda-2,
+#tercera-banda-2,
+#cuarta-banda-1 {
+    background-color: red;
+    color: #fafafa;
+}
+
+#primera-banda-3,
+#segunda-banda-3,
+#tercera-banda-3 {
+    background-color: orange;
+    color: #fafafa;
+}
+
+#primera-banda-4,
+#segunda-banda-4,
+#tercera-banda-4 {
+    background-color: yellow;
+    color: #333;
+}
+
+#primera-banda-5,
+#segunda-banda-5,
+#tercera-banda-5,
+#cuarta-banda-2 {
+    background-color: green;
+    color: #fafafa;
+}
+
+#primera-banda-6,
+#segunda-banda-6,
+#tercera-banda-6,
+#cuarta-banda-3 {
+    background-color: blue;
+    color: #fafafa;
+}
+
+#primera-banda-7,
+#segunda-banda-7,
+#tercera-banda-7,
+#cuarta-banda-4 {
+    background-color: violet;
+    color: #fafafa;
+}
+
+#primera-banda-8,
+#segunda-banda-8,
+#tercera-banda-8,
+#cuarta-banda-5 {
+    background-color: gray;
+    color: #fafafa;
+}
+
+#primera-banda-9,
+#segunda-banda-9,
+#tercera-banda-9 {
+    background-color: white;
+    color: #333;
+}
+
+#tercera-banda-10,
+#cuarta-banda-6 {
+    background-color: gold;
+    color: #333;
+}
+
+#tercera-banda-11,
+#cuarta-banda-7 {
+    background-color: silver;
+    color: #333;
+}
+
+#primera-banda-0:hover,
+#segunda-banda-0:hover,
+#tercera-banda-0:hover {
+    filter: opacity(.6);
+}
+
+#primera-banda-1:hover,
+#segunda-banda-1:hover,
+#tercera-banda-1:hover,
+#cuarta-banda-0:hover {
+    filter: opacity(.6);
+}
+
+#primera-banda-2:hover,
+#segunda-banda-2:hover,
+#tercera-banda-2:hover,
+#cuarta-banda-1:hover {
+    filter: opacity(.6);
+}
+
+#primera-banda-3:hover,
+#segunda-banda-3:hover,
+#tercera-banda-3:hover {
+    filter: opacity(.6);
+}
+
+#primera-banda-4:hover,
+#segunda-banda-4:hover,
+#tercera-banda-4:hover {
+    filter: opacity(.8);
+}
+
+#primera-banda-5:hover,
+#segunda-banda-5:hover,
+#tercera-banda-5:hover,
+#cuarta-banda-2:hover {
+    filter: opacity(.8);
+}
+
+#primera-banda-6:hover,
+#segunda-banda-6:hover,
+#tercera-banda-6:hover,
+#cuarta-banda-3:hover {
+    filter: opacity(.8);
+}
+
+#primera-banda-7:hover,
+#segunda-banda-7:hover,
+#tercera-banda-7:hover,
+#cuarta-banda-4:hover {
+    filter: opacity(.8);
+}
+
+#primera-banda-8:hover,
+#segunda-banda-8:hover,
+#tercera-banda-8:hover,
+#cuarta-banda-5:hover {
+    filter: opacity(.8);
+}
+
+#primera-banda-9:hover,
+#segunda-banda-9:hover,
+#tercera-banda-9:hover {
+    filter: opacity(.8);
+}
+
+#tercera-banda-10:hover,
+#cuarta-banda-6:hover {
+    filter: opacity(.8);
+}
+
+#tercera-banda-11:hover,
+#cuarta-banda-7:hover {
+    filter: opacity(.8);
+}

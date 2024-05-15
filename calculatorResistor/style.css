@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.main-content{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-resistor-values {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.content-resistor {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-resistor img {
+    position: absolute;
+}
+
+.banda1-1,
+.banda2-1,
+.banda3-1,
+.banda4-1 {
+    position: relative;
+    width: 15px;
+    height: 53px;
+    border: 1px solid #999;
+}
+
+.banda1-1 {
+    left: -60px;
+}
+
+.banda2-1{
+    left: -50px;
+}
+
+.banda3-1 {
+    left: -40px;
+}
+
+.banda4-1 {
+    left: 60px;
+}
